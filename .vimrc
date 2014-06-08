@@ -440,7 +440,9 @@ if has("gui_running")
     map <D-0> :tablast<CR>
 endif
 
-map <C-T> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
 map <C-l> :tabn<CR>
 map <C-h> :tabp<CR>
 map <C-n> :tabnew<CR>
+map <C-S-a> :qall<CR>
+map <C-s-a> :wqall<CR>
