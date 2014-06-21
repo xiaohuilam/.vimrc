@@ -183,7 +183,7 @@ nmap s <Plug>(easymotion-s)
 omap t <Plug>(easymotion-bd-tl)
 " Use uppercase target labels and type as a lower case
 let g:EasyMotion_use_upper = 1
- " type `l` and match `l`&`L`
+" type `l` and match `l`&`L`
 let g:EasyMotion_smartcase = 1
 
 " Tagbar
@@ -296,7 +296,7 @@ nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 map <F7> :Gist
 "nmap  <D-/> :
-nnoremap <leader>a :CtrlSF 
+nnoremap <leader>a :CtrlSF
 nnoremap <leader>v V`]
 nnoremap <leader>i :FixWhitespace<cr>
 nnoremap <leader>r :Unite register<cr>
@@ -409,7 +409,7 @@ autocmd BufReadPost *
       \ endif
 
 " w!! to sudo & write a file
-cmap w!! w !sudo tee >/dev/null % 
+cmap w!! w !sudo tee >/dev/null %
 
 :command W w
 :command WQ wq
